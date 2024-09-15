@@ -27,7 +27,7 @@ function Header() {
 
   return (
     <header
-      className={`bg-white sticky transition duration-1000 z-20 mx-auto md:px-16 flex justify-between px-6 md:py-4 items-center ${
+      className={`bg-white sticky   z-20 mx-auto md:px-16 flex justify-between px-6 md:py-4 items-center transition-all duration-1000  ${
         visible ? "top-0" : ""
       }  `}
     >

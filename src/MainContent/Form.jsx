@@ -3,6 +3,7 @@ import PhoneInput from "react-phone-input-2";
 
 function Form() {
   const [number, setNumber] = useState("");
+
   return (
     <div className="flex justify-center items-center my-20 ">
       <div className="w-full md:w-11/12 h-full bg-[#f1f4f7] flex flex-col  justify-center items-center px-8  pt-8 pb-12 md:rounded-xl gap-6 ">
@@ -33,7 +34,7 @@ function Form() {
           <PhoneInput
             country={number}
             placeholder="Enter your contact number "
-            inputStyle={{ height: "56px", width: "27.5rem" }}
+            inputStyle={{ height: "56px", width: "21.5rem" }}
             className=""
             onChange={(phone) => {
               setNumber(phone);

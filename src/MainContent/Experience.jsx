@@ -12,9 +12,9 @@ function Experience() {
             Experience the <span className="text-[#237bca]">GoodSpace</span> app on mobile
           </h1>
           <div className="bg-white md:w-1/2 flex flex-col md:flex-row justify-between items-center rounded-xl">
-            <div className="flex md:flex-col justify-center items-center space-y-4 p-16 w-full  md:w-1/2">
-              <img src={GooglePlay} alt="googleplay"  className="transform transition-transform duration-300 hover:scale-150 md:scale-125"/>
-              <img src={AppStore} alt="appstore" className="transform transition-transform duration-300 hover:scale-150 md:scale-125"/>
+            <div className="flex md:flex-col justify-center items-center space-y-4 md:p-16 w-full  md:w-1/2">
+              <img src={GooglePlay} alt="googleplay"  className="transform transition-transform duration-300 hover:scale-150 md:scale-125 mt-4 md:mt-0"/>
+              <img src={AppStore} alt="appstore" className="transform transition-transform duration-300 hover:scale-150 md:scale-125 "/>
             </div>
             <div className="h-32 md:h-40 border-l-2 border-gray-400 hidden md:block "></div>
             <div className="flex justify-center items-center w-1/2 ">
@@ -22,7 +22,7 @@ function Experience() {
             </div>
           </div>
         </div>
-        <div className=" w-full md:w-1/3"><img src={experience} alt="experience" className="scale-125"/> </div>
+        <div className=" w-full md:w-1/3"><img src={experience} alt="experience" className="scale-125 mt-4"/> </div>
       </div>
     </div>
   );

@@ -9,6 +9,7 @@ import AIfeatures from "./MainContent/AIfeatures";
 import Experience from "./MainContent/Experience";
 import FAQ from "./MainContent/FAQ";
 import Form from "./MainContent/Form";
+import StickySlider from "./MainContent/StickySlider";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,6 +20,7 @@ function App() {
       <Section1 />
       <VideoandBanner />
       <AIfeatures />
+      <StickySlider/>
       <Experience />
       <FAQ />
       <Form />

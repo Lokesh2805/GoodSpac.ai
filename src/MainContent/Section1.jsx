@@ -3,7 +3,7 @@ import Stars from "../assets/Stars.svg";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 function Section1() {
-  const [number, setNumber] = useState("in");
+  const [number, setNumber] = useState("");
   const [isZoomed, setIsZoomed] = useState(false);
 
   useEffect(() => {
