@@ -30,7 +30,7 @@ function TabsComponent() {
                 candidates that are actively looking for the role you are hiring
                 for.
               </p>
-              <button className="flex gap-2 justify-center items-center bg-[#297bca] text-white font-bold border border-[#297bca] w-96 md:my-0 h-14 md:w-48 rounded text-sm">
+              <button className="flex gap-2 justify-center items-center bg-[#297bca] text-white font-bold border border-[#297bca] w-80 md:my-0 h-14 md:w-48 rounded text-sm">
                 Start Hiring <BsArrowRightCircle className="w-6 h-6" />
               </button>
             </div>

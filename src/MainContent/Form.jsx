@@ -17,9 +17,9 @@ function Form() {
           <div className="border-b w-full md:w-9/12 h-px border-b-[#899197]"></div>
         </div>
         <form className="flex flex-col justify-center items-center gap-4 w-96 md:w-4/12">
-          <div className="flex gap-4">
+          <div className="flex justify-between gap-4">
             <input
-              className="appearance-none block md:w-full bg-white text-gray-700 border border-[#d1d4d7] rounded placeholder:text-xs placeholder:text-gray-500 py-4 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+              className="appearance-none block w-full bg-white text-gray-700 border border-[#d1d4d7] rounded placeholder:text-xs placeholder:text-gray-500 py-4 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
               id="grid-first-name"
               type="text"
               placeholder="First Name"

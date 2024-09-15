@@ -56,7 +56,7 @@ function AIfeatures() {
           <h1 className="font-bold text-3xl text-center md:text-start md:text-6xl">
             Find your next hire today.
           </h1>
-          <div className="flex flex-col md:flex-row gap-0 ml-6 md:ml-0">
+          <div className="flex flex-col md:flex-row gap-0">
             <PhoneInput
               country={number}
               placeholder="Enter your contact number "
@@ -78,7 +78,7 @@ function AIfeatures() {
                 key={index}
                 className=" text-[#297bca] text-center flex flex-col justify-center items-center gap-3 transform transition-transform duration-300 hover:scale-105 "
               >
-                <p className="text-5xl font-bold">{benefit.title}</p>
+                <p className=" text-4xl md:text-5xl font-bold">{benefit.title}</p>
                 <p className="text-gray-400 text-sm text-center ">
                   {benefit.description}
                 </p>
